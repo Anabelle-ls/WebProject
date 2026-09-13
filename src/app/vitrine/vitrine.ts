@@ -12,8 +12,8 @@ export class Vitrine {
   produtos: Produto[] = [
   {
     codigo: 1,
-    nome: 'Legging Fitness Preta',
-    descritivo: 'Legging de alta compressão com tecido confortável.',
+    nome: 'Macacão Fitness Vermelho',
+    descritivo: 'Macacão de alta compressão com tecido confortável.',
     quantidade: 15,
     valor: 99.90,
     promo: 79.90,
@@ -21,8 +21,8 @@ export class Vitrine {
   },
   {
     codigo: 2,
-    nome: 'Top Fitness Rosa',
-    descritivo: 'Top com sustentação média para treinos.',
+    nome: 'Conjunto Top e Legging Fitness Vermelho',
+    descritivo: 'Conjunto completo para treinos.',
     quantidade: 20,
     valor: 69.90,
     promo: 59.90,
@@ -30,8 +30,8 @@ export class Vitrine {
   },
   {
     codigo: 3,
-    nome: 'Shorts Academia Azul',
-    descritivo: 'Shorts leve e confortável para exercícios.',
+    nome: 'Conjunto Top Shorts Academia Lilás',
+    descritivo: 'Conjunto de top e shorts para exercícios.',
     quantidade: 12,
     valor: 59.90,
     promo: 0,
@@ -39,8 +39,8 @@ export class Vitrine {
   },
   {
     codigo: 4,
-    nome: 'Conjunto Fitness Verde',
-    descritivo: 'Top e legging combinando para academia.',
+    nome: 'Macacão Fitness Lilás',
+    descritivo: 'Macacão de alta compressão com tecido confortável.',
     quantidade: 8,
     valor: 189.90,
     promo: 159.90,
@@ -48,8 +48,8 @@ export class Vitrine {
   },
   {
     codigo: 5,
-    nome: 'Camiseta Dry Fit Branca',
-    descritivo: 'Camiseta com tecnologia de secagem rápida.',
+    nome: 'Macacão Fitness Azul',
+    descritivo: 'Macacão de alta compressão com tecido confortável.',
     quantidade: 18,
     valor: 49.90,
     promo: 39.90,
@@ -57,8 +57,8 @@ export class Vitrine {
   },
   {
     codigo: 6,
-    nome: 'Regata Fitness Lilás',
-    descritivo: 'Regata feminina leve e respirável.',
+    nome: 'Conjunto Top e Legging Fitness Azul',
+    descritivo: 'Conjunto completo para treinos.',
     quantidade: 10,
     valor: 44.90,
     promo: 0,
@@ -66,8 +66,8 @@ export class Vitrine {
   },
   {
     codigo: 7,
-    nome: 'Jaqueta Esportiva Preta',
-    descritivo: 'Jaqueta ideal para treinos ao ar livre.',
+    nome: 'Macacão Fitness Verde',
+    descritivo: 'Macacão de alta compressão com tecido confortável.',
     quantidade: 6,
     valor: 129.90,
     promo: 109.90,
@@ -75,8 +75,8 @@ export class Vitrine {
   },
   {
     codigo: 8,
-    nome: 'Shorts Saia Fitness',
-    descritivo: 'Modelo moderno com bolso lateral.',
+    nome: 'Conjunto Top e Legging Fitness Verde',
+    descritivo: 'Modelo moderno .',
     quantidade: 9,
     valor: 79.90,
     promo: 69.90,
@@ -84,7 +84,7 @@ export class Vitrine {
   },
   {
     codigo: 9,
-    nome: 'Macacão Fitness Preto',
+    nome: 'Macacão Fitness Marrom',
     descritivo: 'Peça única com excelente ajuste ao corpo.',
     quantidade: 5,
     valor: 179.90,
@@ -93,8 +93,8 @@ export class Vitrine {
   },
   {
     codigo: 10,
-    nome: 'Legging Cintura Alta Vinho',
-    descritivo: 'Legging modeladora com cintura alta.',
+    nome: 'Conjunto Top  e Shorts Fitness Marrom',
+    descritivo: 'Shorts modeladora com cintura alta.',
     quantidade: 14,
     valor: 109.90,
     promo: 89.90,

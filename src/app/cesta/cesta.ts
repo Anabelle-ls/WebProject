@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Produto } from '../model/produto';
 
 @Component({
   imports: [],
@@ -7,7 +8,7 @@ import { Component } from '@angular/core';
   templateUrl: './cesta.html',
 })
 export class Cesta {
-produtos: Produto[] = [
+  produtos: Produto[] = [
   {
     codigo: 1,
     nome: 'Macacão Fitness Vermelho',
@@ -53,5 +54,5 @@ produtos: Produto[] = [
     promo: 39.90,
     destaque: 0
   }
-  
+];
 }
