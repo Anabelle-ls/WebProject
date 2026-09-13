@@ -1,7 +1,14 @@
 import { Routes } from '@angular/router';
-import {Vitrine } from './vitrine/vitrine';
+
+import { Vitrine } from './vitrine/vitrine';
 import { Cesta } from './cesta/cesta';
+// import { Cadastro } from './cadastro/cadastro';
+// import { Login } from './login/login';
 
 export const routes: Routes = [
-    {path: '', component:Vitrine}
+  { path: '', component: Vitrine },
+  { path: 'vitrine', component: Vitrine },
+  { path: 'cesta', component: Cesta },
+  // { path: 'cadastro', component: Cadastro },
+  // { path: 'login', component: Login }
 ];
