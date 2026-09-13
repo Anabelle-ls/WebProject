@@ -1,2 +1,24 @@
+<header>
 
-<router-outlet></router-outlet>
+  <img src="logotipo.jpg" id="logotipo">
+
+  <!-- barra busca -->
+  <nav>
+    <div class="btn-group">
+      <a routerLink="/cadastro" class="btn btn-dark">Cadastro</a>
+      <a routerLink="/cesta" class="btn btn-dark">Cesta</a>
+      <a routerLink="/login" class="btn btn-dark">Entrar</a>
+      <a routerLink="/vitrine" class="btn btn-dark">Promoções</a>
+
+    </div>
+  </nav>
+
+</header>
+
+<div>
+  <router-outlet></router-outlet>
+</div>
+
+<footer>
+  Rodape
+</footer>
