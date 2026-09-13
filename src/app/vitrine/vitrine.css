@@ -1,0 +1,56 @@
+.card-img-top {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.mais-vendidos {
+    width: 100%;
+    height: 40px;
+    color: rgb(16, 15, 15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+}
+
+.botoes-produto {
+    display: flex;
+    gap: 10px;
+}
+
+
+/* Botão Ver mais */
+.card .btn-primary {
+    background-color: white;
+    border: 1px solid #222;
+    color: #222;
+}
+
+/* Mouse sobre Ver mais */
+.card .btn-primary:hover {
+    background-color: #222;
+    color: white;
+}
+
+/* Botão Comprar */
+.card .btn-success {
+    background-color: #222;
+    border: 1px solid #222;
+    color: white;
+
+}
+
+/* Mouse sobre Comprar */
+.card .btn-success:hover {
+    background-color: white;
+    color: #222;
+}

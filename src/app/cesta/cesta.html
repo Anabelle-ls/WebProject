@@ -1,1 +1,37 @@
-<p>cesta works!</p>
+<div class="container">
+
+    <h2>Minha cesta</h2>
+
+    <div *ngIf="cestaService.produtos.length === 0">
+        Sua cesta está vazia.
+    </div>
+
+    <div
+        *ngFor="let produto of cestaService.produtos"
+        class="card mb-3">
+
+        <div class="card-body">
+
+            <h4>{{ produto.nome }}</h4>
+
+            <p>{{ produto.descritivo }}</p>
+
+            <strong>
+                R$ {{ produto.promo > 0 ? produto.promo : produto.valor }}
+            </strong>
+
+            <button
+                class="btn btn-danger ms-3"
+                (click)="cestaService.remover(produto.codigo)">
+                Remover
+            </button>
+
+        </div>
+
+    </div>
+
+ <h3>
+    Total: R$ {{ cestaService.total() | number:'1.2-2' }}
+</h3>
+
+</div>
